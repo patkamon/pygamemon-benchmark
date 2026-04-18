@@ -2,10 +2,13 @@
 ![image info](./result.png)
 
 
-# Models (in order of performance)
-- antigravity/gemini-3.1-pro-high
-- antigravity/opus-4.6
-- codex/gpt-5.4
-- opencode/minimax-2.5
+# Flaw
+- when walking on different direction, player movement is render with wrong sprite  
+- bush is render on top player but it is not y-sort (it complete render over player)
+- bush too big
+- player render wrong on walk
 
-
+# Good
+- player can not walk pass tree
+- the resolution is good
+- tree is y-sort
